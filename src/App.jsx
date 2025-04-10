@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/myprofilo--">
+    <Router>
     <Header />
     <Routes>
       <Route path="/" element={<About />} />
